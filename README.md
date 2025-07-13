@@ -30,12 +30,12 @@ Antes de iniciar a codar, este projeto teve algumas documentações. Foi levanta
 
 ## Funcionalidades Principais
 
-✅ **Múltiplas fontes de dados** 
-✅ **Visualizações interativas**
-✅ **Interface intuitiva**
-✅ **Comparação entre ativos**  
-✅ **Previsão de séries temporais**  
-✅ **Responsivo e adaptável**  
+- ✅ **Múltiplas fontes de dados** 
+- ✅ **Visualizações interativas**
+- ✅ **Interface intuitiva**
+- ✅ **Comparação entre ativos**  
+- ✅ **Previsão de séries temporais**  
+- ✅ **Responsivo e adaptável**  
 
 ## Tecnologias Utilizadas
 
@@ -123,10 +123,10 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ---
 
-**Aluno:** Domingos Peixoto
-**Instituição:** Universidade Federal do Rio Grande do Norte (UFRN) 
-**Professor:** Hertz Wilton Castro Lins
-**Disciplina:** Programação Avançada (2025.1)
+- **Aluno:** Domingos Peixoto
+- **Instituição:** Universidade Federal do Rio Grande do Norte (UFRN) 
+- **Professor:** Hertz Wilton Castro Lins
+- **Disciplina:** Programação Avançada (2025.1)
 
 ---
 
