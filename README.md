@@ -10,7 +10,7 @@ Este projeto é um Dashboard de Análise Financeira desenvolvido como trabalho a
 
 ## Documentações
 
-Antes de iniciar a codar, este projeto teve algumas documentações. Foi levantado casos de uso para compor protótipos, diagrama de atividades e matriz de rastreabilidade contendo 2 requisitos funcionais.
+Antes de iniciar a codar, este projeto teve algumas documentações. Foi levantado casos de uso para compor protótipos, diagrama de atividades, matriz de rastreabilidade contendo 2 requisitos funcionais e, por fim, diagrama de classes.
 
 ### Protótipo principal
 ![Protótipo](documents/prototip.png)
@@ -27,6 +27,9 @@ Antes de iniciar a codar, este projeto teve algumas documentações. Foi levanta
 |-----------------------------------|---------------------------------|-------------------------------|----------------------------------|
 | **RF01** - Coleta resiliente de dados | `FinanceDataService`           | Yahoo Finance, AlphaVantage   | DataFrame com dados para visualização |
 | **RF02** - Visualização de dados      | `FinanceUI`                    | Dados processados             | Gráficos Plotly                  |
+
+### Diagrama de Classes
+![Diagrama de Classes](documents/ClassDiagram.png)
 
 ## Funcionalidades Principais
 
