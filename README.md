@@ -2,9 +2,9 @@
 
 ## Descrição do Projeto
 
-Este projeto é um Dashboard de Análise Financeira desenvolvido como trabalho acadêmico para a disciplina de Programação Avançada do curso de Bacharelado em Ciência da Computação. A aplicação permite visualizar e analisar dados históricos de ativos financeiros, com funcionalidades para:
+Este projeto é um Dashboard de Análise Financeira desenvolvido como trabalho acadêmico para a disciplina de Programação Avançada. A aplicação permite visualizar e analisar dados históricos de ativos financeiros, com funcionalidades para:
 
-- Visualização de séries temporais em diferentes formatos (linha, candlestick, barras e área)
+- Visualização de séries temporais em diferentes formatos (linha, candlestick e barras)
 - Comparação entre múltiplos ativos
 - Previsão de tendências usando modelo de Regressão Linear
 
