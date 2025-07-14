@@ -2,7 +2,10 @@
 
 ## Descrição do Projeto
 
-Este projeto é um Dashboard de Análise Financeira desenvolvido como trabalho acadêmico para a disciplina de Programação Avançada. A aplicação permite visualizar e analisar dados históricos de ativos financeiros, com funcionalidades para:
+Este projeto é um Dashboard de Análise Financeira desenvolvido como trabalho acadêmico para a disciplina de Programação Avançada. Ele foi idealizado para buscar minimizar a dependência de planilhas estáticas, processos manuais no mercado financeiro, reduzindo tempo e erros, ajudando onde há dificuldade em transformar dados brutos em insights acionáveis rapidamente. O dashboard deve ser uma plataforma que automatiza coleta de dados de ativos, para análise e predição de dados de ativos/ações financeiras.
+Desse modo, há a Integração de Yahoo Finance, Alpha Vintage, utilizando Python e Streamlit em prol de tomada de decisões estratégicas, a qual também consegue se integrar como uma ferramenta educacional para disciplinas de Finanças ou Ciência de Dados, que pode ser utilizada por professores ou alunos.
+
+ A aplicação permite visualizar e analisar dados históricos de ativos financeiros, com funcionalidades para:
 
 - Visualização de séries temporais em diferentes formatos (linha, candlestick e barras)
 - Comparação entre múltiplos ativos
@@ -10,7 +13,9 @@ Este projeto é um Dashboard de Análise Financeira desenvolvido como trabalho a
 
 ## Documentações
 
-Antes de iniciar a codar, este projeto teve algumas documentações. Foi levantado casos de uso para compor protótipos, diagrama de atividades, matriz de rastreabilidade contendo 2 requisitos funcionais e, por fim, diagrama de classes.
+Antes de iniciar a programar, este projeto teve algumas documentações. Foi levantado painel MVP para compreensão inicial do que seria a aplicação, bem como seu intuito; estórias do usuário, para fortificar a necessidade de usuários sobre a aplicação; protótipo da aplicação, para que consigamos entender “na prática” como pode ser nossa aplicação; casos de uso para complementar funcionalidades do projeto; diagrama de atividades para compreensão dos fluxos dos casos de uso; matriz de rastreabilidade contendo dois requisitos funcionais e, por fim, diagrama de classes, contendo o projeto de como irão estar situadas as classes e o que as compõe.
+
+Segue abaixo algumas das documentações produzidas:
 
 ### Protótipo principal
 ![Protótipo](documents/prototip.png)
@@ -67,7 +72,7 @@ FinancialAnalysisDashboard/
 ### Pré-requisitos
 
 - Python 3.10 ou superior instalado
-- Conta no Alpha Vantage para chave API (opcional)
+- Conta no Alpha Vantage para chave API (opcional, para quantidades maiores de cinco requisições por minuto)
 
 ### Instalação
 
@@ -91,7 +96,7 @@ pip install -r requirements.txt
 
 ### Configuração
 
-Crie um arquivo `.env` na raiz do projeto com sua chave Alpha Vantage (opcional, já que se pode fazer 5 requisições por minuto sem uso da ALPHA_VANTAGE_KEY):
+Crie um arquivo `.env` na raiz do projeto com sua chave Alpha Vantage (opcional, já que se pode fazer cinco requisições por minuto sem uso da ALPHA_VANTAGE_KEY):
 ```
 ALPHA_VANTAGE_KEY=sua_chave_aqui
 ```
@@ -133,7 +138,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 - **Aluno:** Domingos Peixoto
 - **Instituição:** Universidade Federal do Rio Grande do Norte (UFRN) 
-- **Professor:** Hertz Wilton Castro Lins
+- **Professor:** Hertz Wilton de Castro Lins
 - **Disciplina:** Programação Avançada (2025.1)
 
 ---
