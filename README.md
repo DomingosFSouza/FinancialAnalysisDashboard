@@ -101,7 +101,7 @@ ALPHA_VANTAGE_KEY=sua_chave_aqui
 echo "ALPHA_VANTAGE_KEY=sua_chave" > .env #Linux ou Windows
 ```
 
-### Execução
+### Execução local
 
 Execute o aplicativo Streamlit:
 ```bash
@@ -109,6 +109,11 @@ streamlit run main.py
 ```
 
 O aplicativo estará disponível em `http://localhost:8501`
+
+## Disponibilidade Online
+
+Poderá acessar a aplicação de maneira online através do seguinte link:
+> https://financialanalysisdashboard.streamlit.app/
 
 ## Uso Acadêmico
 
